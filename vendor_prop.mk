@@ -44,6 +44,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.tunnel.audio.encode=false \
     vendor.voice.conc.fallbackpath=deep-buffer \
     vendor.voice.path.for.pcm.voip=true
+    sys.display-size=1920x1080
 
 # Bluetooth
 PRODUCT_PROPERTY_OVERRIDES += \
