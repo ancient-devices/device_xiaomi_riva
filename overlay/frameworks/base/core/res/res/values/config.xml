@@ -358,4 +358,11 @@
 
     <!-- Whether or not swipe up gesture's opt-in setting is available on this device -->
     <bool name="config_swipe_up_gesture_setting_available">true</bool>
+
+    <!-- Enable live display -->
+    <bool name="config_liveDisplayAvailable">true</bool>
+
+    <!-- Use live display for temperature control-->
+    <bool name="config_nightDisplayAvailable">false</bool>
+
 </resources>
