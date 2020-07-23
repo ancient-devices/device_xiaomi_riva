@@ -20,8 +20,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_m.mk)
 
-# Inherit some common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common Ancient stuff
+$(call inherit-product, vendor/ancient/config/common_full_phone.mk)
+
+# Ancient
+ANCIENT_NOGAPPS := true
+IS_PHONE := true
+TARGET_BOOT_ANIMATION_RES := 720
+ANCIENT_OFFICIAL=true
+FORCE_OTA=true
 
 # Inherit from riva device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -30,7 +37,7 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := riva
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := Redmi 5A
-PRODUCT_NAME := lineage_riva
+PRODUCT_NAME := ancient_riva
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 

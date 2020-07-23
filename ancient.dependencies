@@ -1,0 +1,14 @@
+[
+ {
+   "remote": "github",
+   "repository": "ancient-devices/vendor_xiaomi_riva",
+   "target_path": "vendor/xiaomi",
+   "branch": "ten"
+},
+ {
+   "remote": "github",
+   "repository": "ancient-devices/android_kernel_riva",
+   "target_path": "kernel/xiaomi/msm8917",
+   "branch": "hmp"
+ }
+]
