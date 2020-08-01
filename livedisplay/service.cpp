@@ -16,17 +16,13 @@
 
 #include <dlfcn.h>
 
-#define LOG_TAG "vendor.lineage.livedisplay@2.0-service.xiaomi_mido"
+#define LOG_TAG "vendor.lineage.livedisplay@2.0-service.xiaomi_riva"
 
 #include <android-base/logging.h>
 #include <binder/ProcessState.h>
 #include <hidl/HidlTransportSupport.h>
 
 #include "PictureAdjustment.h"
-
-constexpr const char* SDM_DISP_LIBS[]{
-"libsdm-disp-vndapis.so"
-};
 
 using android::OK;
 using android::sp;
@@ -40,7 +36,7 @@ using ::vendor::lineage::livedisplay::V2_0::sdm::PictureAdjustment;
 int main() {
     // Vendor backend
     void* libHandle = nullptr;
-    const char* libName = nullptr;
+    const char* libName = "libsdm-disp-vndapis.so";
     int32_t (*disp_api_init)(uint64_t*, uint32_t) = nullptr;
     int32_t (*disp_api_deinit)(uint64_t, uint32_t) = nullptr;
     uint64_t cookie = 0;
@@ -54,15 +50,7 @@ int main() {
 
     LOG(INFO) << "LiveDisplay HAL service is starting.";
 
-    for (auto&& lib : SDM_DISP_LIBS) {
-        libHandle = dlopen(lib, RTLD_NOW);
-        libName = lib;
-        if (libHandle != nullptr) {
-            LOG(INFO) << "Loaded: " << libName;
-            break;
-        }
-        LOG(ERROR) << "Can not load " << libName << " (" << dlerror() << ")";
-    }
+    libHandle = dlopen(libName, RTLD_NOW);
 
     if (libHandle == nullptr) {
         LOG(ERROR) << "Failed to load SDM display lib, exiting.";
