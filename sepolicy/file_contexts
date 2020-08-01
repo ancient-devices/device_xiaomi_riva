@@ -19,6 +19,9 @@
 /vendor/bin/hw/android\.hardware\.drm@1\.2-service\.clearkey u:object_r:hal_drm_clearkey_exec:s0
 /vendor/bin/hw/android\.hardware\.drm@1\.2-service\.widevine u:object_r:hal_drm_widevine_exec:s0
 
+# HALs
+/(vendor|system/vendor)/bin/hw/vendor\.lineage\.livedisplay@2\.0-service\.xiaomi_riva				u:object_r:hal_lineage_livedisplay_qti_exec:s0
+
 # Input
 /sys/board_properties/virtualkeys.*             u:object_r:touch_sysfs:s0
 /vendor/usr/keylayout(/.*)?                     u:object_r:vendor_keylayout_file:s0
