@@ -12,7 +12,7 @@ vendor/lib/libacdbloader.so|9db520059782211f4d15d601d74429da29afad60
 vendor/lib/libacdbrtac.so|b87d3917d67419bf1b698a3c1117ff33676e803f
 vendor/lib/libadiertac.so|ed294f2d1bf824dba2e54680c2e8989e965439d9
 vendor/lib/libadm.so|976d7afc3601f7f5b412d37bb6d2d42539fd2f8e
-vendor/lib/libaudcal.so|423c1e04c2a97500b7b2983af98ad0ac09abeb37
+vendor/lib/libaudcal.so|8c4d9a610c5cce20dee9721feb4864ea2470caf2
 vendor/lib/soundfx/libasphere.so|a58dccfd6d959c8f8c0e00a233ca39d72b5f13ad
 vendor/lib/soundfx/libqcbassboost.so|67bf57b29b27a8a6b9ebd867034eac94016666cd
 vendor/lib/soundfx/libqcreverb.so|35cb91836413efaee12aa00872cdebeaf76f4e9d
@@ -21,7 +21,7 @@ vendor/lib64/libacdb-fts.so|5f9d81ddff5e4ea365c3decd2e15f067eed29f95
 vendor/lib64/libacdbloader.so|79c19166d9ea057563e402cd21a20cc81bf1c3a8
 vendor/lib64/libacdbrtac.so|a60a1a35291e66a3e848362421a3131df849dd44
 vendor/lib64/libadiertac.so|e57093978640b9c8a1dff2c17706bb54b0fef00a
-vendor/lib64/libaudcal.so|e964733aa12b61f7706e56767317ad5f652d29bf
+vendor/lib64/libaudcal.so|a2788d71d00be193e9704edefc1b363cbc847942
 
 # Bluetooth - from dpl_sprout - QKQ1.191008.001 00WW_2_310
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|535491e4a8036125259bab4579a53cadcb08dcc3
