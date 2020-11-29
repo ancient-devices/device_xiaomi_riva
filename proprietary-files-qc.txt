@@ -229,19 +229,19 @@ vendor/firmware/a330_pm4.fw|ae739ea812f9e4462d7bba8b9ead5782d4496618
 vendor/lib/libhdr_tm.so|f1d9566f7c6bb92521b86fcbd03b76b1375b3d15
 vendor/lib64/libhdr_tm.so|208637299f17b43013b88f5e5538c562b54ad644
 
-# Graphics (SDM) - from olive - QKQ1.191014.001 V11.0.1.0.QCNCNXM
-vendor/lib/libscalar.so|5793dfa5d29a20e123de2afb2691713f5cb75c74
-vendor/lib/libsdm-color.so|4dc7a8c90521c45b3e25623985cf4486e6fb7b57
-vendor/lib/libsdm-diag.so|6b8ddfbf870f329ca9e9fb50c3e9cb1a54bbb6ab
--vendor/lib/libsdm-disp-vndapis.so|5b5ab2404541a8e3fd97a4e600bc34e7f3e2e56c
-vendor/lib/libsdmextension.so|a6d8b00d514f434f0f973dacf406956bfea681ef
-vendor/lib/libtinyxml2_1.so|58932a10e8e410dc7b263bc36b5c89e37623059a
-vendor/lib64/libscalar.so|43cb8279a855796d26dedb41efcb0f16b6ad7394
-vendor/lib64/libsdm-color.so|f465d382260baed2d2f326ca663e03cccd73a0b7
-vendor/lib64/libsdm-diag.so|4ec7f55fd8a4a1a316282be57e1d5c1a3a20660d
--vendor/lib64/libsdm-disp-vndapis.so|b04cd604137e52f4f9bb372db01884106da9834a
-vendor/lib64/libsdmextension.so|3d0727b1a95e5691033c151d888b719a687fdba7
-vendor/lib64/libtinyxml2_1.so|5eaa71107c3ac981774b523a761246aa18a6a5cf
+# Graphics (SDM) - from LA.UM.8.6.2.r1-08100-89xx.0
+vendor/lib/libscalar.so|72315ef8655e5d92ad866fa2563995108b3ca144
+vendor/lib/libsdm-color.so|e0a09970328fa59883e4a51ee38528d2e84bc6c2
+vendor/lib/libsdm-diag.so|4b6fb07f48406b65d7185e319bbeaf9cd8aaa478
+-vendor/lib/libsdm-disp-vndapis.so|2bcfb8721de0d0668212722a78b86b92bd3f22d6
+vendor/lib/libsdmextension.so|bcf331d2f481bdfbe912c85640f04d5dd6dd0a5b
+vendor/lib/libtinyxml2_1.so|ae18b1269052274ad98ff954bf8e1ce0fe50eccf
+vendor/lib64/libscalar.so|0e4966afdeb2de2e88dea9fc420eed931a64060b
+vendor/lib64/libsdm-color.so|fef2b577d7aa5e69122f49b45c3f5185e41b3d9d
+vendor/lib64/libsdm-diag.so|3a04410ad9dafd5c348afab5db6445390dae00cb
+-vendor/lib64/libsdm-disp-vndapis.so|5f2dfe8f37dd33f3f87ba9743bd228b0a90e13dd
+vendor/lib64/libsdmextension.so|415dcd49a886c001ea9f4d42ed9ef84187248c49
+vendor/lib64/libtinyxml2_1.so|70942325afdd14eedcf11b3fbbfbc3d98f42f8dc
 
 # IMS - from tissot - PKQ1.180917.001.V10.0.4.0.PDHMIXM
 -app/uceShimService/uceShimService.apk|d2ecdb607749b0496664db52b706e9340bd9b9f0
